@@ -1,0 +1,53 @@
+<!--
+    author: Zachary Martin
+    date:   2021/06/11
+    note:   final project
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS: Final Project</title>
+
+    <script src="scripts/hangman.js" defer="defer"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>JS Final Project | Hangman</h1>
+        </header>
+        <main>            
+            <div id = "imageContainer">
+                <img src='images/felix0.png' id = "felix"
+                     alt="felix eating">
+            </div> 
+            
+            <div class="word">
+                <ul id = "guessThis" class="wordList">
+                </ul>
+            </div>
+        
+            <div id = "guessAndHint">
+                <h3 id= "guessGuess"></h3>
+                <p id = "hintHint"></p>
+                <h3 id = gameStateText></h3>
+                <button type= "button"
+                        id = "again">New Game</button>
+            </div>
+            
+            <div id = "keyboard">
+                <div id = "keyboardRow1"></div>
+                <div id = "keyboardRow2"></div>
+                <div id = "keyboardRow3"></div>
+            </div>
+            
+        </main>    
+        <footer>
+            <p>COMP2132 | Zachary Martin</p>
+        </footer>
+    </div>
+</body>
+</html>
